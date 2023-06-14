@@ -1,0 +1,112 @@
+ @font-face {
+   font-family: MyFont;
+   src: url('./tanaegean/TAN/TAN\ -\ AEGEAN\ Regular.ttf');
+ }
+
+
+ .logo {
+   width: 45px;
+   height: 45px;
+   object-fit: cover;
+   border: 2px solid #146C94;
+   border-radius: 50%;
+ }
+
+ .text-logo {
+   font-family: MyFont;
+   color: #146C94;
+   font-size: 1.5rem;
+   padding: 0px 10px;
+ }
+
+
+ header {
+   background-color: #DBE2EF;
+   display: flex;
+   justify-content: center;
+   padding: 30px 10px 5px 10px ;
+   align-items: center;
+ }
+
+ header a{
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+ }
+
+ .nav-link {
+   border-color: #146C94 !important;
+   color: #146C94 !important;
+   font-size: 1rem !important;
+ }
+
+ .nav-link:hover {
+   color: #DBE2EF !important;
+   background-color: #146C94 !important;
+   border-color: #DBE2EF !important;
+ }
+
+ .hosd-dis {
+   background-color: #DBE2EF;
+   color: #146C94;
+ }
+
+ .h1-hosd {
+   font-family: MyFont;
+ }
+
+ .h2-hosd {
+   font-family: MyFont;
+   text-align: center;
+ }
+
+ .p-hosd {
+   font-family: serif;
+   font-size: 1.2rem !important;
+ }
+
+ .bag-logo {
+   width: 300px;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ @media(max-width:1000px) {
+   .photo {
+     display: none;
+   }
+ }
+
+ .container {
+   background-color: #DBE2EF;
+ }
+
+ .Website {
+   background-color: #146C94;
+   font-family: serif;
+ }
+
+ .p-web {
+   color: #ffffff;
+ }
+
+ .h2-web {
+   color: #DBE2EF;
+   font-family: serif;
+ }
+
+ .cs {
+   font-family: serif;
+ }
+
+ header  {
+   display: flex !important;
+   align-items: center !important;
+ }
+
+ 
+  .btn2:hover {
+    color: #DBE2EF !important ;
+    background-color: #146C94 !important ;
+    border-color: #DBE2EF !important;
+ }
